@@ -125,7 +125,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-end;
   gap: 20px;
   padding: 0px 21px 0px 21px;
   flex-grow: 0;
@@ -159,7 +159,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 10px;
   padding: 18px 23px 18px 23px;
   flex-grow: 0;
@@ -176,8 +176,8 @@
 .homepage-3 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
   padding: 10px 10px 10px 10px;
   flex-grow: 0;
@@ -604,7 +604,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 10px;
   flex-grow: 0;
   flex-shrink: 1;
@@ -730,7 +730,7 @@
   flex-shrink: 1;
   flex-basis: 1440px;
   width: 1440px;
-  height: 3140px;
+  height: 3100px;
 }
 
 .desktop-1-1 {
